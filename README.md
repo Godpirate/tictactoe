@@ -10,7 +10,8 @@ L’app dovrà contenere i seguenti metodi e le seguenti caratteristiche:
  
  ⁃ Un metodo che si occuperà di gestire i turni dei giocatori, che verrà richiamato ogni volta che un giocatore eseguirà la propria azione
  
- ⁃ Una label che rappresenterà il punteggio, la quale verrà aggiornata ogni volta che una partita viene vinta o pareggiata
+ ⁃ Una label che rappresenterà il punteggio, la quale verrà aggiornata ogni volta che una partita viene vinta o pareggiata, e una label che stamperà a schermo 
+ il giocatore che deve effettuare il turno (ES. "Tocca al giocatore 1/2")
  
  ⁃ Un metodo che valuta il risultato al termine della partita o quando verrà fatto tris, e stampa a schermo il vincitore (bonus se fai apparire un alert). Questo metodo dovrà valutare lo stato della partita alla fine di ogni turno, prima del metodo che gestisce i turni, ma dopo il metodo che effettua il draw nella griglia (questo é un consiglio, sei libera di fare come meglio credi per portare a termine il test)
 
